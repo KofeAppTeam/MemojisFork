@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E1B2DBE2C03C5D80006DD19 /* MemojisDocumentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B2DBD2C03C5D80006DD19 /* MemojisDocumentation.docc */; };
+		5E1B2DC02C068A1D0006DD19 /* Memojis.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B2DBF2C068A1D0006DD19 /* Memojis.docc */; };
 		5E5DE5ED2718D02800C79175 /* MemojisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DE5EC2718D02800C79175 /* MemojisApp.swift */; };
 		5E5DE5EF2718D02800C79175 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5DE5EE2718D02800C79175 /* EmojiMemoryGameView.swift */; };
 		5E5DE5F12718D02900C79175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5DE5F02718D02900C79175 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E1B2DBD2C03C5D80006DD19 /* MemojisDocumentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MemojisDocumentation.docc; sourceTree = "<group>"; };
+		5E1B2DBF2C068A1D0006DD19 /* Memojis.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Memojis.docc; sourceTree = "<group>"; };
 		5E5DE5E92718D02800C79175 /* Memojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memojis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5DE5EC2718D02800C79175 /* MemojisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemojisApp.swift; sourceTree = "<group>"; };
 		5E5DE5EE2718D02800C79175 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
@@ -47,6 +47,7 @@
 		5E5DE5E02718D02800C79175 = {
 			isa = PBXGroup;
 			children = (
+				5E1B2DBF2C068A1D0006DD19 /* Memojis.docc */,
 				5E5DE5EB2718D02800C79175 /* Memojis */,
 				5E5DE5EA2718D02800C79175 /* Products */,
 			);
@@ -83,7 +84,6 @@
 		5E855A672BFBC24D006680F5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5E1B2DBD2C03C5D80006DD19 /* MemojisDocumentation.docc */,
 				5E5DE5F02718D02900C79175 /* Assets.xcassets */,
 				5E5DE5F22718D02900C79175 /* Preview Content */,
 			);
@@ -191,9 +191,9 @@
 				5E5DE5FB271A189F00C79175 /* MemoryGame.swift in Sources */,
 				5E5DE603272212EC00C79175 /* Cardufy.swift in Sources */,
 				5E5DE5EF2718D02800C79175 /* EmojiMemoryGameView.swift in Sources */,
+				5E1B2DC02C068A1D0006DD19 /* Memojis.docc in Sources */,
 				5E5DE5ED2718D02800C79175 /* MemojisApp.swift in Sources */,
 				5E5DE5FF2720CAC200C79175 /* AspectVGrid.swift in Sources */,
-				5E1B2DBE2C03C5D80006DD19 /* MemojisDocumentation.docc in Sources */,
 				5E5DE5FD271A1A4400C79175 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +237,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DOCC_HOSTING_BASE_PATH = memojis;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -258,6 +259,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -300,6 +302,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DOCC_HOSTING_BASE_PATH = memojis;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -314,6 +317,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -330,6 +334,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memojis/Sources/Preview Content\"";
 				DEVELOPMENT_TEAM = QNY927L322;
+				DOCC_HOSTING_BASE_PATH = Memojis;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
@@ -346,6 +351,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MemojisApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -365,6 +371,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memojis/Sources/Preview Content\"";
 				DEVELOPMENT_TEAM = QNY927L322;
+				DOCC_HOSTING_BASE_PATH = Memojis;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
@@ -381,6 +388,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MemojisApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
