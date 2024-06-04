@@ -8,6 +8,6 @@ xcrun xcodebuild docbuild \
 xcrun docc process-archive transform-for-static-hosting \
 	"$PWD/.derivedData/Build/Products/Debug-iphonesimulator/Memojis.doccarchive" \
 	--output-path ".docs" \
-	--hosting-base-path "Memojis"
+	--hosting-base-path "MemojisFork"
 
 echo '<script>window.location.href += "/documentation/memojis"</script>' > .docs/index.html
