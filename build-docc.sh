@@ -10,4 +10,4 @@ xcrun docc process-archive transform-for-static-hosting \
 	--output-path ".docs" \
 	--hosting-base-path "Memojis"
 
-echo '<script>window.location.href += "/documentation/memojis"</script>' > .docs/index.html
+echo '<script>window.location.href += "/documentation/memojisfork"</script>' > .docs/index.html
